@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Saket Mehta
+	email = sudosaket@outlook.com
+[core]
+	editor = code --wait
+[pager]
+	branch = false
+[credential]
+	helper = osxkeychain
