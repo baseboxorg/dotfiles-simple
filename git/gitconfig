@@ -6,5 +6,3 @@
 	editor = code --wait
 [pager]
 	branch = false
-[credential]
-	helper = osxkeychain
