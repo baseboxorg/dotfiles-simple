@@ -106,3 +106,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gbvv="git branch -vv"
+eval $(thefuck --alias)
+alias gradle=gw
+
+# Fix for broken scrolling in alternate screen
+# https://github.com/robbyrussell/oh-my-zsh/pull/6611
+# https://github.com/robbyrussell/oh-my-zsh/issues/7025
+unset LESS
+env_default LESS '-R'function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
